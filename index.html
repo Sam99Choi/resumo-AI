@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="/logo.svg" alt="logo">
+      <h1>Shorts Summary</h1>
+
+      <form id="form">
+        <input type="url" id="url" placeholder="URL do vídeo">
+        <button title="Resumir">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 256 256"><path d="M232.4,114.49,88.32,26.35a16,16,0,0,0-16.2-.3A15.86,15.86,0,0,0,64,39.87V216.13A15.94,15.94,0,0,0,80,232a16.07,16.07,0,0,0,8.36-2.35L232.4,141.51a15.81,15.81,0,0,0,0-27ZM80,215.94V40l143.83,88Z"></path></svg>
+        </button>
+      </form>
+
+      <h2>Resumo</h2>
+      <p id="content" class="placeholder">Escolha um short para resumo</p>
+
+    </div>
+    <script type="module" src="web/main.js"></script>
+  </body>
+</html>
